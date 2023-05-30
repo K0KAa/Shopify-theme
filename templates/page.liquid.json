@@ -6,9 +6,43 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "7f75702b-12bc-4062-9d9e-2c235c821069": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19346626019632__7f75702b-12bc-4062-9d9e-2c235c821069-168542951371221346-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Object",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19346626019632__7f75702b-12bc-4062-9d9e-2c235c821069-168542951371221346-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "c790bdd4-bab3-404d-ab02-e58093b20409": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ page.title }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7f75702b-12bc-4062-9d9e-2c235c821069",
+    "c790bdd4-bab3-404d-ab02-e58093b20409"
   ]
 }
